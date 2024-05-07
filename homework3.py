@@ -1,7 +1,9 @@
-my_string = input('Ввести значение: ')
-str_ = 'Ввести значение: '
+my_string = input('Утро красит нежным светом ')
+str_ = 'Утро красит нежным светом'
 my_string = len(str_)
 print(my_string)
-print('Ввести значение: ' .upper())
-print('Ввести значение: ' .lower())
-print('Ввести значение: ' .replace(' ', '#'))
+print('Утро красит нежным светом' .upper())
+print('Утро красит нежным светом' .lower())
+print('Утро красит нежным светом' .replace(' ', '#'))
+print(str_[0])
+print(str_[-1])
